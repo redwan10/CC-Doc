@@ -1,0 +1,221 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+
+
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
+
+/* 1. Theme default css */
+ body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+a,
+.button,button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus,
+button:focus,input:focus, textarea:focus {
+	text-decoration: none;
+	outline: none;
+}
+button{cursor: pointer}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #777777;
+	margin-bottom: 15px;
+}
+a{
+	color: #333;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
+
+/* Default button */
+
+
+/* Default bg color */
+
+
+/* Custom css start */
+
+
+
+
+
+
+body {
+	background-color: #F5F5F5 !important;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+}
+
+
+
+/* Menu style */
+.main-menu {
+	background-color: #FFFFFF;
+	width: 250px;
+}
+
+.main-menu .title h4{
+	padding: 15px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #f50057;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.main-menu > ul {
+	padding-bottom: 40px;
+}
+.main-menu ul li {
+	display: block;
+	position: relative;
+	border-top: 1px solid #eee;
+}
+
+.main-menu ul li a {
+	margin: 0;
+	padding: 12px 20px;
+	display: block;
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+	-ms-transition: all .2s linear;
+}
+.main-menu ul li a:hover {
+	background-color: #f50057;
+	color: #fff;
+}
+.main-menu ul > li.show > a {
+	background-color: #f50057;
+	color: #fff;
+}
+.main-menu ul li a.dropdown-toggle::after {
+	display: none;
+}
+.main-menu ul li a.dropdown-toggle::before {
+	content: "\f078";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	float: right;
+	color: inherit;
+	font-size: 14px;
+
+}
+.main-menu ul li.show a.dropdown-toggle::before {
+	content: "\f077";
+}
+ /* Sub Menu Style */
+.main-menu ul li ul {
+	margin: 0;
+	padding: 0;
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	border: none;
+	width: 100%;
+	padding-bottom: 40px;
+	background-color: #eee;
+	border: 1px solid #eee;
+	max-height: 330px;
+	overflow-Y: scroll;
+}
+.main-menu ul li ul li {
+	border: none;
+}
+.main-menu ul li ul li a {
+	padding: 13px 36px;
+  font-size: 13px;
+}
+/* Menu style End */
+
+
